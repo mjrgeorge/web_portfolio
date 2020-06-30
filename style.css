@@ -49,6 +49,10 @@ section {
   border-radius: 5px;
 }
 
+.link_button:hover {
+  background-image: linear-gradient(45deg, blue, cyan);
+}
+
 .dream_area {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
@@ -61,11 +65,15 @@ section {
   background-position: left;
 }
 
+.experiences_area h2 {
+  margin-left: 5%;
+}
+
 .single_experiences {
   box-shadow: 10px 10px 40px gray;
   height: 80%;
   border-radius: 5px;
-  background-color: white;
+  /* background-color: white; */
 }
 
 #full_stack_web {
@@ -82,5 +90,4 @@ section {
 
 footer p {
   text-align: center;
-  font-size: 12px;
 }
