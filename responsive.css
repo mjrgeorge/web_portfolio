@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1200px) {
+  section {
+    padding-bottom: 50px;
+  }
+  .dream_area {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .link_button {
+    font-size: 10px;
+  }
+  section {
+    padding-bottom: 0px;
+  }
+  section {
+    height: 400px;
+  }
+}
